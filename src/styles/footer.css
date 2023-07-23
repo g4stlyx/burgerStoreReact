@@ -1,0 +1,28 @@
+.footer{
+    background-color: brown;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+    
+    position: relative;
+    width:100%;
+    bottom:0;
+}
+
+.icons{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.icon{
+    font-size: 40px;
+    margin-right:10px;
+    cursor:pointer;
+    color:white
+}
+
+.footer p{
+    color:white
+}

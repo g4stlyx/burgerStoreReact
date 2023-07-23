@@ -1,0 +1,77 @@
+.navbar {
+  width: 100%;
+  height: 90px;
+  background-color: brown;
+  margin-top:-7px;
+  font-size: 25px;
+  font-family: 'Gill Sans','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar .navRight {
+  margin-left: auto;
+  margin-right: 25px !important;
+}
+
+.link{
+  text-decoration: none;
+  margin-right:20px;
+  color:white;
+}
+
+@media only screen and (max-width: 600px) {
+
+  *{
+    margin:0;
+    padding:0;
+  }
+
+  .navLogo{
+    display:none;
+  }
+
+  .navbar .main {
+    padding-left: 0px !important;
+  }
+  .navbar .main a {
+    font-size: 30px;
+  }
+  .navbar .navRight {
+    /* margin-left: auto !important; */
+    /* margin-right: -5px !important; */
+    display:flex;
+    flex-direction: row;
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  .navbar .main {
+    padding-left: 0px !important;
+  }
+  .navbar .main a {
+    font-size: 13px;
+  }
+  .navbar .navRight {
+    margin-left: auto !important;
+    margin-right: 5px !important;
+    display:flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .navbar .main {
+    padding-left: 0px !important;
+  }
+  .navbar .main a {
+    font-size: 15px;
+  }
+  .navbar .navRight {
+    margin-left: auto !important;
+    margin-right: 5px !important;
+    display:flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,46 @@
+.aboutImage{
+    margin:15px;
+    width:90%;
+    height:auto;
+}
+
+.aboutTitle{
+    font-size: 50px;
+}
+
+.aboutContent{
+    margin:10px;
+    margin-bottom:20px;
+    
+}
+
+@media only screen and (max-width:1500px){
+    .aboutContent{
+        margin-bottom:10%;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .aboutContent{
+        margin-bottom:15%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .aboutImage{
+        margin:auto;
+        margin-top: 20px;
+        width:95%;
+        height:200px;
+    }
+
+    .aboutTitle{
+        margin-top: 10px;
+        font-size: 45px;
+    }
+
+    .aboutContent{
+        margin-bottom: 23%;
+    }
+}
